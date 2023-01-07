@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/voltz.svg">
+        
+    </header>
+    <main>
+        <div id="esq">
+            <h2>Ter uma moto por assinatura nunca foi tão fácil</h2>
+            <img src="img/motowoman.png" alt="">
+        </div>
+        <div id="dir">
+            <h2>Conheça nossas motos</h2>
+            <div id="framemoto">
+                <button onclick="goBack()">
+                <img src="img/arrowesq.png" alt=""></button>
+                <ul class="itenscarrossel">
+                    <li id="itema" class="item">
+                        <h3>Scooter Elétrica Voltz Ev1</h3>
+                        <img src="img/scooterEV1.png" alt="" class="imgcarrossel">                        
+                        <h4>A partir de</h4>
+                        <span>R$619,90</span>
+                        <p>Plano de 30 meses</p>
+                    </li>
+                    <li id="itemb" class="item">
+                        <h3>Moto Elétrica Voltz Ev2</h3>
+                        <img src="img/motoEV2.png" alt="" class="imgcarrossel">                        
+                        <h4>A partir de</h4>
+                        <span>R$619,90</span>
+                        <p>Plano de 30 meses</p>
+                    </li>
+                </ul>
+                <button onclick="goNext()">
+                <img src="img/arrowdir.png" alt=""></button>
+            </div>
+            <div class="botao" onmouseover="mudarCor()" onmouseout="voltarCor()"><a href="">Saiba mais</a></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
