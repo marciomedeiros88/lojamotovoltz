@@ -1,6 +1,8 @@
 
 let index = 0;
 let carouselItems = document.querySelectorAll(".itenscarrossel li");
+let temporizador;
+
 function goNext(){
     if(index === carouselItems.length - 1){
         index = 0;
@@ -37,13 +39,12 @@ function voltarCor() {
     }
 }
 
-/* function passar(increase) {
-    console.log(index);
-    index = index + increase;
-    index = Math.min(Math.max(index, 0), liEls.length - 1);
-    liEls[index].scrollIntoView({ behavior: "smooth" });
-}
+temporizador = setInterval(goNext, 5000)
 
+function passarAutomatico() {
+    temporizador = setInterval(goNext, 5000)
+}
+/*
 console.log("final");
 
 let index = 0;
