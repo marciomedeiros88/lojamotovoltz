@@ -158,6 +158,67 @@ p{
     cursor:pointer;
 }
 
+.botaofechar{    
+    width: auto;
+    height: auto;
+    padding: 0.5em;    
+    background-color:#fff;
+    border-radius: 15px;
+    margin:auto;
+    cursor:pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    float: right;
+    display:flex;
+    text-align: center;
+}
+
+.estilocard{
+    
+    display:none;
+    width: 90%;
+    height: auto;
+    grid-auto-flow: row;
+    vertical-align: middle;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 20pt;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+#card{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    height: 50em;
+    padding-top: 4em;
+    top: 0;
+    margin: 4em;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 15px;
+}
+
+.estilocard p{
+    width: 75%;
+    padding: 2em;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.estilocard img{
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: black;

@@ -41,9 +41,24 @@
                 <button onclick="goNext()">
                 <img src="img/arrowdir.png" alt=""></button>
             </div>
-            <div class="botao" onmouseover="mudarCor()" onmouseout="voltarCor()"><a href="">Saiba mais</a></div>
+            <div class="botao" onmouseover="mudarCor()" onmouseout="voltarCor()" onclick="exibirCard()"><a href="">Saiba mais</a></div>
         </div>
     </main>
+    <div id="card">
+        <div id="card1" class="estilocard">
+            <img src="img/scooterEV1.png" alt="" class="imgcarrossel"> 
+            <p>O câmbio de 5 marchas da Scooter Elétrica Voltz EV1 oferece maior confiança e performance na pilotagem, tornando as subidas de marcha mais leves e as reduções mais suaves!
+            </p>
+            <button class="botaofechar" onclick="fecharCard()">Fechar</button>
+        </div>
+        <div id="card2" class="estilocard">
+            <img src="img/motoEV2.png" alt="" class="imgcarrossel">
+            <p>O câmbio de 5 marchas da Moto Elétrica Voltz EV2 oferece maior confiança e performance na pilotagem, tornando as subidas de marcha mais leves e as reduções mais suaves!
+            </p>
+            <button class="botaofechar" onclick="fecharCard()">Fechar</button>
+        </div>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
