@@ -293,4 +293,7 @@ a{
     .botao{
         width:8em;
     }
+    #card{
+        margin: 1em;
+    }
 }
